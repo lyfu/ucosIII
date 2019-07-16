@@ -1,0 +1,5 @@
+Dependencies for Project 'my-uCOS-III', Target 'Target 1': (DO NOT MODIFY !)
+F (..\User\app.c)(0x5D2D4992)()
+F (..\Doc\readm.txt)(0x5D2D4834)()
+F (RTE\Device\STM32F407VGTx\startup_stm32f407xx.s)(0x5A8F9364)()
+F (RTE\Device\STM32F407VGTx\system_stm32f4xx.c)(0x5A8F9364)()

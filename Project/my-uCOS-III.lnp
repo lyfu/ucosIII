@@ -1,0 +1,8 @@
+--cpu Cortex-M4.fp
+".\app.o"
+".\startup_stm32f407xx.o"
+".\system_stm32f4xx.o"
+--strict --scatter ".\my-uCOS-III.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\my-uCOS-III.map" -o .\my-uCOS-III.axf
