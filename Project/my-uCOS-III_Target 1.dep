@@ -1,8 +1,52 @@
 Dependencies for Project 'my-uCOS-III', Target 'Target 1': (DO NOT MODIFY !)
-F (..\User\app.c)(0x5D2D4992)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\User\uC-CPU -I ..\User\uC-LIB -I ..\User\uCOS-III\Ports -I ..\User\uCOS-III\Source-I E:\stm32\rtos\ucosiii\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F407xx --C99-o .\app.o --omf_browse .\app.crf --depend .\app.d)
+F (..\User\app.c)(0x5D2ECBF6)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\User\uC-CPU -I ..\User\uC-LIB -I ..\User\uCOS-III\Ports -I ..\User\uCOS-III\Source-I E:\stm32\rtos\ucosIII\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F407xx --C99-o .\app.o --omf_browse .\app.crf --depend .\app.d)
+I (..\User\uCOS-III\Source\os.h)(0x5A40A386)
+I (..\User\uCOS-III\Source\os_type.h)(0x5A40A3D0)
+I (..\User\uC-CPU\cpu.h)(0x5A4EE150)
+I (..\User\uCOS-III\Source\os_cfg.h)(0x5A4095B6)
+I (..\User\uCOS-III\Ports\os_cpu.h)(0x5A4F255C)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5A8F9364)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x5A8F9364)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5A8F9364)
+F (..\User\uCOS-III\Source\os.h)(0x5A40A386)()
+F (..\User\uCOS-III\Source\os_cfg.h)(0x5A4095B6)()
+F (..\User\uCOS-III\Source\os_core.c)(0x5A4202DE)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\User\uC-CPU -I ..\User\uC-LIB -I ..\User\uCOS-III\Ports -I ..\User\uCOS-III\Source-I E:\stm32\rtos\ucosIII\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F407xx --C99-o .\os_core.o --omf_browse .\os_core.crf --depend .\os_core.d)
+I (..\User\uCOS-III\Source\os.h)(0x5A40A386)
+I (..\User\uCOS-III\Source\os_type.h)(0x5A40A3D0)
+I (..\User\uC-CPU\cpu.h)(0x5A4EE150)
+I (..\User\uCOS-III\Source\os_cfg.h)(0x5A4095B6)
+I (..\User\uCOS-III\Ports\os_cpu.h)(0x5A4F255C)
+F (..\User\uCOS-III\Source\os_task.c)(0x5A41A9C8)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\User\uC-CPU -I ..\User\uC-LIB -I ..\User\uCOS-III\Ports -I ..\User\uCOS-III\Source-I E:\stm32\rtos\ucosIII\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F407xx --C99-o .\os_task.o --omf_browse .\os_task.crf --depend .\os_task.d)
+I (..\User\uCOS-III\Source\os.h)(0x5A40A386)
+I (..\User\uCOS-III\Source\os_type.h)(0x5A40A3D0)
+I (..\User\uC-CPU\cpu.h)(0x5A4EE150)
+I (..\User\uCOS-III\Source\os_cfg.h)(0x5A4095B6)
+I (..\User\uCOS-III\Ports\os_cpu.h)(0x5A4F255C)
+F (..\User\uCOS-III\Source\os_type.h)(0x5A40A3D0)()
+F (..\User\uCOS-III\Source\os_var.c)(0x5A40970A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\User\uC-CPU -I ..\User\uC-LIB -I ..\User\uCOS-III\Ports -I ..\User\uCOS-III\Source-I E:\stm32\rtos\ucosIII\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F407xx --C99-o .\os_var.o --omf_browse .\os_var.crf --depend .\os_var.d)
+I (..\User\uCOS-III\Source\os.h)(0x5A40A386)
+I (..\User\uCOS-III\Source\os_type.h)(0x5A40A3D0)
+I (..\User\uC-CPU\cpu.h)(0x5A4EE150)
+I (..\User\uCOS-III\Source\os_cfg.h)(0x5A4095B6)
+I (..\User\uCOS-III\Ports\os_cpu.h)(0x5A4F255C)
+F (..\User\uCOS-III\Ports\os_cpu.h)(0x5A4F255C)()
+F (..\User\uCOS-III\Ports\os_cpu_a.s)(0x5A4F189A)(--cpu Cortex-M4.fp -g --apcs=interwork -I E:\stm32\rtos\ucosIII\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 518" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1"--list .\listings\os_cpu_a.lst --xref -o .\os_cpu_a.o --depend .\os_cpu_a.d)
+F (..\User\uCOS-III\Ports\os_cpu_c.c)(0x5A41DF84)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\User\uC-CPU -I ..\User\uC-LIB -I ..\User\uCOS-III\Ports -I ..\User\uCOS-III\Source-I E:\stm32\rtos\ucosIII\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F407xx --C99-o .\os_cpu_c.o --omf_browse .\os_cpu_c.crf --depend .\os_cpu_c.d)
+I (..\User\uCOS-III\Source\os.h)(0x5A40A386)
+I (..\User\uCOS-III\Source\os_type.h)(0x5A40A3D0)
+I (..\User\uC-CPU\cpu.h)(0x5A4EE150)
+I (..\User\uCOS-III\Source\os_cfg.h)(0x5A4095B6)
+I (..\User\uCOS-III\Ports\os_cpu.h)(0x5A4F255C)
+F (..\User\uC-CPU\cpu.h)(0x5A4EE150)()
 F (..\Doc\readm.txt)(0x5D2D4834)()
-F (RTE\Device\STM32F407VGTx\startup_stm32f407xx.s)(0x5A8F9364)(--cpu Cortex-M4.fp -g --apcs=interwork -I E:\stm32\rtos\ucosiii\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 518" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1"--list .\listings\startup_stm32f407xx.lst --xref -o .\startup_stm32f407xx.o --depend .\startup_stm32f407xx.d)
-F (RTE\Device\STM32F407VGTx\system_stm32f4xx.c)(0x5D2D4B84)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\User\uC-CPU -I ..\User\uC-LIB -I ..\User\uCOS-III\Ports -I ..\User\uCOS-III\Source-I E:\stm32\rtos\ucosiii\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F407xx --C99-o .\system_stm32f4xx.o --omf_browse .\system_stm32f4xx.crf --depend .\system_stm32f4xx.d)
+F (RTE\Device\STM32F407VGTx\startup_stm32f407xx.s)(0x5A8F9364)(--cpu Cortex-M4.fp -g --apcs=interwork -I E:\stm32\rtos\ucosIII\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 518" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1"--list .\listings\startup_stm32f407xx.lst --xref -o .\startup_stm32f407xx.o --depend .\startup_stm32f407xx.d)
+F (RTE\Device\STM32F407VGTx\system_stm32f4xx.c)(0x5D2D4B84)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\User\uC-CPU -I ..\User\uC-LIB -I ..\User\uCOS-III\Ports -I ..\User\uCOS-III\Source-I E:\stm32\rtos\ucosIII\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F407xx --C99-o .\system_stm32f4xx.o --omf_browse .\system_stm32f4xx.crf --depend .\system_stm32f4xx.d)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5A8F9364)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x5A8F9364)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)

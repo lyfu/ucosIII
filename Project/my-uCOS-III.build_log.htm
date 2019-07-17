@@ -21,20 +21,26 @@ Target DLL:      UL2CM3.DLL V1.157.5.0
 Dialog DLL:      TCM.DLL V1.14.8.0
  
 <h2>Project:</h2>
-E:\stm32\rtos\ucosiii\Project\my-uCOS-III.uvprojx
+E:\stm32\rtos\ucosIII\Project\my-uCOS-III.uvprojx
 Project File Date:  07/16/2019
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
-Build target 'Target 1'
+Rebuild target 'Target 1'
+compiling os_task.c...
+compiling os_core.c...
+..\User\uCOS-III\Source\os_core.c(48): warning:  #188-D: enumerated type mixed with another type
+  		*p_err = 
+S_STATE_OS_RUNNING;
+..\User\uCOS-III\Source\os_core.c: 1 warning, 0 errors
+compiling os_var.c...
+assembling os_cpu_a.s...
+compiling os_cpu_c.c...
 assembling startup_stm32f407xx.s...
 compiling app.c...
-..\User\app.c(7): warning:  #1-D: last line of file ends without a newline
-  }
-..\User\app.c: 1 warning, 0 errors
 compiling system_stm32f4xx.c...
 linking...
-Program Size: Code=436 RO-data=408 RW-data=0 ZI-data=1632  
+Program Size: Code=1116 RO-data=424 RW-data=36 ZI-data=2052  
 FromELF: creating hex file...
 ".\my-uCOS-III.axf" - 0 Error(s), 1 Warning(s).
 
@@ -53,7 +59,7 @@ Package Vendor: Keil
    * Component: Startup Version: 2.6.2
 
 <h2>Collection of Component include folders:</h2>
-  E:\stm32\rtos\ucosiii\Project\RTE
+  E:\stm32\rtos\ucosIII\Project\RTE
   C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
   C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
 
@@ -62,11 +68,11 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:4.3.0
 
    * Component: Keil::Device:Startup:2.6.2
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
       Source file:   MDK\Device\Source\ARM\STM32F40xxx_41xxx_OPT.s
       Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
-      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
       Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f407xx.s
-      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
 Build Time Elapsed:  00:00:02
 </pre>
 </body>
